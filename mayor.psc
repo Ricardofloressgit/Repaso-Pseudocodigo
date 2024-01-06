@@ -1,18 +1,18 @@
 //ANALISIS
-//Definición de problema: tenemos que encontrar la edad mayor solicitadas de las siguientes variables edad1,edad2,edad3
-//datos de entrada: se solicitaran los valores para que sean asignadas en cada variable.
-// información de salida: se mostrara el resultado en pantalla de las comparaciones que se realizarón entres las variables.
+//DefiniciÃ³n de problema: se tiene que determinar las edades mayor y menor de 3 datos ingresados por el usuario, y determinar si son mayores de 18 aÃ±os 
+//datos de entrada: se solicitaran tres edades que se asignaran a las variables edad1,edad2,edad3 como enteros
+// informaciÃ³n de salida: se mostrara el resultado en pantalla el resultado de "es la edad menor" y "es la edad mayor", "es mayor de edad con " y "no cumple con la mayoria de edad su edad es de "
 //variables: edad1,edad2,edad3 como entero
 //
-// DISEÑO
+// DISEÃ‘O
 //-se solicitara ingresar valores como entero para las variables 
-//-se hara uso de los simbolos de mayor para comparar que edad es la mas mayor y la mas menor 
+//-se hara uso de los simbolos de mayor para comparar que edad es la mayor y la menor 
 //-se compararan de las siguiente formas:
 //edad1> edad2
 //edad1 > edad3
 //edad2 > edad3
 // de igualmanera para encontrar el menor de las edades
-// al finalizar el proceso se mostrara en pantalla las edad menor y la edad mayor de 18 años
+// al finalizar el proceso se mostrara la informacion en pantalla las edad menor y la edad mayor de 18 aÃ±os
 Proceso Edad_Mayor_Y_Menor
 	Definir edad1, edad2, edad3 Como Entero;
 	Escribir Sin Saltar"escribe el valor de la primera edad "
